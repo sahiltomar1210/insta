@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && npx json-server --watch ./src/Mock-data/data.json --port 3004",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "npx json-server --watch ./src/Mock-data/data.json --port 3004"
