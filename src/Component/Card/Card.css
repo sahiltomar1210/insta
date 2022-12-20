@@ -1,0 +1,57 @@
+.card{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-header{
+    display: flex;
+    margin: 10px;
+}
+
+.card-header-name{
+font-weight: bold;
+}
+.card-header-location{
+    color: gray;
+}
+
+.card-header span{
+    margin-left: auto;
+    align-self: center;
+}
+.card-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card-actions{
+    padding: 10px;
+
+}
+
+.card-actions span{
+    margin-right: 10px;
+    font-size: 12px;
+     
+}
+
+.card-actions span:last-child{
+    float: right;
+}
+.post-likes{
+    margin-left: 10px;
+    color: gray;
+    font-size: 12px;
+}
+
+.post-description{
+    font-weight: bold;
+    font-size: 15px ;
+    margin: 10px 0px 20px 10px;
+    
+}
